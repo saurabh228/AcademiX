@@ -6,9 +6,9 @@ import java.sql.DriverManager
 import java.sql.SQLException
 
 class DatabaseConnection {
-    private val url = "jdbc:mysql://192.168.107.91:3306/academixdb"
-    private val username = "admin"
-    private val password = "admin"
+    private val url = "jdbc:mysql://192.168.108.177:3306/academixdb"
+    private val username = "admin1"
+    private val password = "admin1@AX"
 
     fun connect(): Connection? {
         var connection: Connection? = null
