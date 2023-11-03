@@ -1,10 +1,9 @@
 package app.cardboard.academix
 
+
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -26,7 +25,6 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.material3.rememberTopAppBarState
 import androidx.compose.ui.input.nestedscroll.nestedScroll
-import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.text.style.TextOverflow
 import app.cardboard.academix.actions.ActionView
 import app.cardboard.academix.components.ButtonRowScreen
@@ -113,7 +111,7 @@ fun MainScreen(
 
     Surface(
         modifier = Modifier.padding(innerPadding),
-        color = colorResource(id = R.color.homebg)
+//        color = colorResource(id = R.color.homebg)
     ) {
         ButtonRowScreen { action ->
             showDialog = true
